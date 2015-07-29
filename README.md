@@ -1,7 +1,7 @@
 Improved Errorbars for Highcharts
 =============================
 
-This is a plugin for Highcharts to allow X and Y errorbars to be added as a series.
+This is a plugin for Highcharts to allow X and Y errorbars to be added as a series. Series type is called 'error_bar' to avoid conflict with builtin errorbar type.
 
 Data format is:   [x,y,left,right,low,high]
 
