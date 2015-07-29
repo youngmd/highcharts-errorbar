@@ -68,14 +68,12 @@ seriesTypes.error_bar = extendClass(seriesTypes.column, {
                 if (point[key] !== null) {
                     point[key + 'Plot'] = xAxis.translate(point[key], 0, 0, 0, 1);
                 }
-                console.log(key,point[key + 'Plot'],point[key])
             });
             each(ypointArrayMap, function (key) {
                 if (point[key] !== null) {
                     point[key + 'Plot'] = yAxis.translate(point[key], 0, 1, 0, 1);
                 }
             });
-            console.log(point);
         });
     },
     
