@@ -1,0 +1,27 @@
+{
+    "name": "error_bar",
+    "version": "1.0",
+    "title": "Errorbar",
+    "author": {
+        "name": "Paulo Costa",
+        "url": "https://github.com/youngmd/highcharts-errorbar/"
+    },
+    "licenses": [
+        {
+            "type": "Creative Commons Attribution",
+            "url": "https://creativecommons.org/licenses/by/3.0/us/"
+        }
+    ],
+    "dependencies": {
+        "highcharts": "4.0.4",
+    },
+    "description": "Improves on the built-in errorbars.  Adds support for x-axis.  X and Y errorbars can be added as a single series or independently.",
+    "keywords": [
+        "error",
+        "errorbar",
+        "errorbars"
+    ],
+    "demo": [
+        
+    ]
+}
