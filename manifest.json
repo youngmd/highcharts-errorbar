@@ -15,7 +15,7 @@
     "dependencies": {
         "highcharts": "4.0.4"
     },
-    "description": "Improves on the built-in errorbars.  Adds support for x-axis.  X and Y errorbars can be added as a single series or independently. Series type is called 'error_bar' to avoid conflict with builtin errorbar type.  Data format is:   [x,y,left,right,low,high].  For example, if you had a data point that was at (20,30) and had an x error of +/- 2 and a y error of +/- 5, your data point would look like this: [20,30,18,22,25,35]",
+    "description": "Improves on the built-in errorbars.  Adds support for x-axis.  X and Y errorbars can be added as a single series or independently.",
     "keywords": [
         "error",
         "errorbar",
